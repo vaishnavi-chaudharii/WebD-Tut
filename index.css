@@ -1,0 +1,50 @@
+p {
+    color: rgb(46, 102, 190);
+    font-size: 76px;
+    font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande","Lucida Sans", Arial, sans-serif;
+}
+
+#myheading {
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+    letter-spacing: 1px;
+    /* text-decoration: underline; */
+    word-spacing: 5px;
+}
+
+#mydiv {
+    background-image: linear-gradient(90deg, teal, white);
+    /* background-color: teal; */
+    padding: 20px;
+    margin: 30px;
+    border-radius: 20px;
+    /* border-color: blueviolet;
+    border-style: double;
+    border-width: 5px; */
+    box-shadow: 15px 15px 4px black;
+}
+
+/* body{
+    background-color: aliceblue;
+    background-image: url(pic.jpeg);
+    background-size: cover;
+    background-attachment: scroll;
+    background-repeat: no-repeat;
+    
+} */
+
+#myanimation{
+    width: 500px;
+    height: 500px;
+    background-color: brown;
+    border-radius: 30px;
+    animation-duration: 5s;
+    animation-name: myanim;
+    animation-iteration-count: infinite;
+}
+
+@keyframes myanim{
+    20% {background-color: yellow;}
+    40% {background-color: black;}
+    60% {background-color: rgb(225, 111, 179);}
+    90% {background-color: rgb(255, 0, 0);}
+}
