@@ -1,5 +1,5 @@
 p {
-    color: rgb(46, 102, 190);
+    color: teal;
     font-size: 76px;
     font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande","Lucida Sans", Arial, sans-serif;
 }
@@ -32,7 +32,7 @@ p {
     
 } */
 
-#myanimation{
+/* #myanimation{
     width: 500px;
     height: 500px;
     background-color: brown;
@@ -47,4 +47,62 @@ p {
     40% {background-color: black;}
     60% {background-color: rgb(225, 111, 179);}
     90% {background-color: rgb(255, 0, 0);}
+} */
+
+.head{
+    grid-area: header;
 }
+.about{
+    grid-area: abo;
+}
+.gallery{
+    grid-area: gal;
+}
+.contact{
+    grid-area: cont;
+}
+.support{
+    grid-area: sup;
+}
+
+/* .mygriddiv{
+    display: grid;
+    grid-template-areas: 'header header header header header header' 
+    'abo abo abo gal gal gal' 
+    'cont cont sup sup sup sup';
+    background-image: linear-gradient(120deg, teal, rgb(43, 88, 88));
+    padding: 20px;
+    margin: 20px;
+    border-radius: 20px;
+}
+/* to select all the div inside the class >div is used */
+/* .mygriddiv > div{ 
+    background-color: white;
+    margin: 20px;
+    border-radius: 20px;
+    padding: 20px;
+    text-align: center;
+    font-size: 25px;
+    color: rgb(3, 13, 16);
+} */
+
+ .mygriddiv{
+    display: flex;
+    flex-wrap: wrap;
+    background-image: linear-gradient(120deg, teal, rgb(43, 88, 88));
+    padding: 20px;
+    margin: 20px;
+    border-radius: 20px;
+}
+/* to select all the div inside the class >div is used */
+.mygriddiv > div{ 
+    background-color: white;
+    margin: 20px;
+    border-radius: 20px;
+    padding: 20px;
+    width: auto;
+    text-align: center;
+    font-size: 25px;
+    color: rgb(3, 13, 16);
+}
+

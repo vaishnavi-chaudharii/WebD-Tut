@@ -1,0 +1,19 @@
+.main-heading{
+    height: 200px;
+    top: 0px;
+    background-image: linear-gradient(135deg, teal, rgb(139, 196, 196));
+    align-items: center;
+    align-content: center;
+    border-bottom-left-radius: 70px;
+    border-bottom-right-radius: 70px;
+}
+
+.heading-text{
+    vertical-align: middle;
+    color: azure;
+    align-content: center;
+}
+
+.image-decor{
+    border-radius: 40px;
+}
